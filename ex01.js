@@ -13,9 +13,8 @@
 
 */
 
-function getCharAt(a,b) {
-  var a = "tutu";
-  var b = a.indexOf();
- 
+function getCharAt(str, pos) {
+
+    return str.charAt(pos);
+
 }
-console.log(getCharAt(b(2));
