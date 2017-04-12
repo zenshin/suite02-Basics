@@ -16,6 +16,13 @@
         - Array.indexOf
 
 */
-function searchOcc(arr, occurence){
-  
+function searchOcc(arr, occ) {
+    var len = arr.length;
+    for (var i = 0; i < len; i++) {
+        if (arr[i] === occ) {
+            return i;
+        }
+    }
+    return -1;
 }
+console.log(searchOcc(["Salut", "ça", "va", "?"], "va"));
