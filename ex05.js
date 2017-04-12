@@ -16,3 +16,6 @@
         - Array.indexOf
 
 */
+function searchOcc(arr, occurence){
+  
+}

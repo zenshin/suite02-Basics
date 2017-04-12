@@ -16,8 +16,6 @@
 function copyArray(arr) {
     var arr1 = [];
     var arr2 = arr1;
-    // for (var i = 0, len = arr1.length; i < len; ++i) {
-    //     return arr2[i] = arr1[i];
-    // }
-    return arr2
+}
+return arr2
 }
