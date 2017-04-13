@@ -24,5 +24,4 @@ function searchOcc(arr, occ) {
         }
     }
     return -1;
-}
-console.log(searchOcc(["Salut", "ça", "va", "?"], "va"));
+};
