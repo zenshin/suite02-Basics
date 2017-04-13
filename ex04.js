@@ -13,3 +13,7 @@
         editStringAt("toto", 3, "a"); // "tota";
 
 */
+function editStringAt(str, pos, char) {
+
+    return str.substr(0, pos) + char + str.substr(pos + 1);
+};
