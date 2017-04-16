@@ -14,8 +14,8 @@
 
 */
 function copyArray(arr) {
-    var arr1 = [];
+
+    var arr1 = [arr];
     var arr2 = arr1;
-}
-return arr2
-}
+    return arr2;
+};
